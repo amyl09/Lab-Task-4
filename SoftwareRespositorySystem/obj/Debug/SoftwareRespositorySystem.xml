@@ -1,0 +1,386 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SoftwareRespositorySystem
+</name>
+</assembly>
+<members>
+<member name="T:SoftwareRespositorySystem.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:SoftwareRespositorySystem.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:SoftwareRespositorySystem.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:SoftwareRespositorySystem.My.Resources.Resources._222">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SoftwareRespositorySystem.My.Resources.Resources._360_F_200905394_2u1hKNTSawkcR6N1X0aX0PiSBR1tvUMn">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SoftwareRespositorySystem.My.Resources.Resources._360_F_200905394_2u1hKNTSawkcR6N1X0aX0PiSBR1tvUMn1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SoftwareRespositorySystem.My.Resources.Resources._47_477351_computer_keyboard_typing_on_laptop_png_transparent_png">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SoftwareRespositorySystem.My.Resources.Resources.a9a0e85906b1b1f61baaf273d8a5cc62">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SoftwareRespositorySystem.My.Resources.Resources.abstract_square_interface_modern_background_concept_fingerprint_digital_scanning_visual_security_system_authentication_login_vector">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SoftwareRespositorySystem.My.Resources.Resources.coding_computer_programming">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:SoftwareRespositorySystem.SRSDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:SoftwareRespositorySystem.SRSDataSet.authorDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SoftwareRespositorySystem.SRSDataSet.authorRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SoftwareRespositorySystem.SRSDataSet.authorRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SoftwareRespositorySystem.SRSDataSetTableAdapters.authorTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SoftwareRespositorySystem.SRSDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:SoftwareRespositorySystem.SRSDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(SoftwareRespositorySystem.SRSDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:SoftwareRespositorySystem.SRSDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(SoftwareRespositorySystem.SRSDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:SoftwareRespositorySystem.SRSDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(SoftwareRespositorySystem.SRSDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:SoftwareRespositorySystem.SRSDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:SoftwareRespositorySystem.SRSDataSetTableAdapters.TableAdapterManager.UpdateAll(SoftwareRespositorySystem.SRSDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:SoftwareRespositorySystem.SRSDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:SoftwareRespositorySystem.SRSDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:SoftwareRespositorySystem.SRSDataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:SoftwareRespositorySystem.SRSDataSet1.softwareDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SoftwareRespositorySystem.SRSDataSet1.softwareRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SoftwareRespositorySystem.SRSDataSet1.softwareRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SoftwareRespositorySystem.SRSDataSet1TableAdapters.softwareTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SoftwareRespositorySystem.SRSDataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:SoftwareRespositorySystem.SRSDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(SoftwareRespositorySystem.SRSDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:SoftwareRespositorySystem.SRSDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(SoftwareRespositorySystem.SRSDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:SoftwareRespositorySystem.SRSDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(SoftwareRespositorySystem.SRSDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:SoftwareRespositorySystem.SRSDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:SoftwareRespositorySystem.SRSDataSet1TableAdapters.TableAdapterManager.UpdateAll(SoftwareRespositorySystem.SRSDataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:SoftwareRespositorySystem.SRSDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:SoftwareRespositorySystem.SRSDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:SoftwareRespositorySystem.SRSDataSet2">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:SoftwareRespositorySystem.SRSDataSet2.softwareDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SoftwareRespositorySystem.SRSDataSet2.softwareRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SoftwareRespositorySystem.SRSDataSet2.softwareRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SoftwareRespositorySystem.SRSDataSet2TableAdapters.softwareTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SoftwareRespositorySystem.SRSDataSet2TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:SoftwareRespositorySystem.SRSDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(SoftwareRespositorySystem.SRSDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:SoftwareRespositorySystem.SRSDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(SoftwareRespositorySystem.SRSDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:SoftwareRespositorySystem.SRSDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(SoftwareRespositorySystem.SRSDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:SoftwareRespositorySystem.SRSDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:SoftwareRespositorySystem.SRSDataSet2TableAdapters.TableAdapterManager.UpdateAll(SoftwareRespositorySystem.SRSDataSet2)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:SoftwareRespositorySystem.SRSDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:SoftwareRespositorySystem.SRSDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:SoftwareRespositorySystem.SRSDataSet3">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:SoftwareRespositorySystem.SRSDataSet3.softwareDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SoftwareRespositorySystem.SRSDataSet3.softwareRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SoftwareRespositorySystem.SRSDataSet3.softwareRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SoftwareRespositorySystem.SRSDataSet3TableAdapters.softwareTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SoftwareRespositorySystem.SRSDataSet3TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:SoftwareRespositorySystem.SRSDataSet3TableAdapters.TableAdapterManager.UpdateUpdatedRows(SoftwareRespositorySystem.SRSDataSet3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:SoftwareRespositorySystem.SRSDataSet3TableAdapters.TableAdapterManager.UpdateInsertedRows(SoftwareRespositorySystem.SRSDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:SoftwareRespositorySystem.SRSDataSet3TableAdapters.TableAdapterManager.UpdateDeletedRows(SoftwareRespositorySystem.SRSDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:SoftwareRespositorySystem.SRSDataSet3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:SoftwareRespositorySystem.SRSDataSet3TableAdapters.TableAdapterManager.UpdateAll(SoftwareRespositorySystem.SRSDataSet3)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:SoftwareRespositorySystem.SRSDataSet3TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:SoftwareRespositorySystem.SRSDataSet3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:SoftwareRespositorySystem.SRSDataSet4">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:SoftwareRespositorySystem.SRSDataSet4.authorDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SoftwareRespositorySystem.SRSDataSet4.authorRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SoftwareRespositorySystem.SRSDataSet4.authorRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SoftwareRespositorySystem.SRSDataSet4TableAdapters.authorTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SoftwareRespositorySystem.SRSDataSet4TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:SoftwareRespositorySystem.SRSDataSet4TableAdapters.TableAdapterManager.UpdateUpdatedRows(SoftwareRespositorySystem.SRSDataSet4,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:SoftwareRespositorySystem.SRSDataSet4TableAdapters.TableAdapterManager.UpdateInsertedRows(SoftwareRespositorySystem.SRSDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:SoftwareRespositorySystem.SRSDataSet4TableAdapters.TableAdapterManager.UpdateDeletedRows(SoftwareRespositorySystem.SRSDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:SoftwareRespositorySystem.SRSDataSet4TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:SoftwareRespositorySystem.SRSDataSet4TableAdapters.TableAdapterManager.UpdateAll(SoftwareRespositorySystem.SRSDataSet4)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:SoftwareRespositorySystem.SRSDataSet4TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:SoftwareRespositorySystem.SRSDataSet4TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
